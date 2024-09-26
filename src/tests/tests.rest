@@ -1,0 +1,28 @@
+### GetAllSalasDeAula
+GET http://localhost:40000/api/salasdeaula
+
+### GetSalasDeAulaById
+GET http://localhost:40000/api/salasdeaula/1
+
+### InsertSalasDeAula
+POST http://localhost:40000/api/salasdeaula
+Content-Type: application/json
+
+{
+    "descricao": "Sala 101",
+    "localizacao": "Prédio B",
+    "capacidade": 30
+}
+
+### UpdateSalasDeAula
+PUT http://localhost:40000/api/salasdeaula/1
+Content-Type: application/json
+
+{
+    "descricao": "Sala 102",
+    "localizacao": "Prédio B",
+    "capacidade": 40
+}
+
+### DeleteSalasDeAula
+DELETE http://localhost:40000/api/salasdeaula/1

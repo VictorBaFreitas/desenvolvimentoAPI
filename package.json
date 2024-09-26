@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "express": "^4.21.0",
+    "mysql2": "^3.11.3"
+  },
+  "name": "desenvolvimentoapi",
+  "version": "1.0.0",
+  "description": "Desafio desenvolver API, usando Node.js e testes com REST",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
